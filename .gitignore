@@ -5,6 +5,9 @@ lib
 .env
 !.env.example
 
+# editor junk
+.vscode
+
 # package directories
 node_modules
 

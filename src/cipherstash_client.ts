@@ -15,6 +15,7 @@ export const getStash = async () => {
 
     return Stash.connect(
         process.env.CS_ENDPOINT,
+        process.env.CS_CLUSTER_ID,
         auth,
         process.env.CS_CMK
     );

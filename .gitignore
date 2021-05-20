@@ -1,0 +1,15 @@
+# transpiled garbage
+lib
+
+# env files
+.env
+!.env.example
+
+# package directories
+node_modules
+
+# stuff i might need to ignore later
+.serverless
+.dynamodb
+.webpack
+jspm_packages

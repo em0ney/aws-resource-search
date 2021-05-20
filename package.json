@@ -1,0 +1,35 @@
+{
+  "name": "aws-resource-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "dependencies": {
+    "@cipherstash/client": "^0.2.1",
+    "aws-sdk": "^2.910.0",
+    "dotenv": "^9.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^26.6.3",
+    "typescript": "^4.2.4",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  },
+  "scripts": {
+    "compile": "./node_modules/.bin/babel -x .js,.ts -d lib src",
+    "lint": "./node_modules/.bin/eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

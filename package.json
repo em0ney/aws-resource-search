@@ -5,7 +5,7 @@
   "main": "jest.config.js",
   "dependencies": {
     "@cipherstash/client": "^0.2.1",
-    "aws-sdk": "^2.910.0",
+    "aws-sdk": "^2.1354.0",
     "dotenv": "^9.0.2"
   },
   "devDependencies": {
